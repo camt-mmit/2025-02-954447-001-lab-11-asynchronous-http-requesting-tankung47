@@ -1,0 +1,23 @@
+dl {
+  display: grid;
+  grid-template-columns: 180px 1fr; /* ซ้าย label ขวา value */
+  gap: 12px 20px;
+  align-items: center;
+}
+
+dt {
+  font-weight: 500;
+  color: #888;
+}
+
+dd {
+  margin: 0;
+  font-weight: 800;           /* หนาขึ้นเล็กน้อย */
+  display: inline-block;      /* สำคัญมาก */
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+dd:hover {
+  transform: scale(1.05);     /* ขยายเล็กน้อย */
+  color: yellow;
+}

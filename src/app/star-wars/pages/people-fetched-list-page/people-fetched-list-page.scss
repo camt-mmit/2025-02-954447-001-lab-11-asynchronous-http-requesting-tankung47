@@ -1,0 +1,21 @@
+.simple-list {
+  list-style: none;
+  padding: 10;
+  margin: 0;
+
+  li {
+    margin: 6px 0;
+    font-weight: 800;              /* หนาขึ้น */
+    display: inline-block;         /* สำคัญมาก */
+    transition: transform 0.25s ease, color 0.25s ease;
+  }
+
+  li:hover {
+    transform: scale(1.02);        /* ขยายเล็กน้อย */
+    color: yellow;
+  }
+}
+.simple-list {
+  display: grid;
+  gap: 10px;
+}
