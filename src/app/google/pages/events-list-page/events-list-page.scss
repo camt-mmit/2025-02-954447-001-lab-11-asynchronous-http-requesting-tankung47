@@ -1,0 +1,88 @@
+/* NAV */
+nav {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 16px;
+}
+
+.nav-btn {
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  background: #000;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.nav-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* SEARCH */
+.search-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.search-form input {
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.search-form button {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* LOAD MORE */
+.load-more {
+  margin-top: 20px;
+  padding: 12px 24px;
+  border-radius: 12px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.load-more:hover {
+  transform: scale(1.05);
+}
+
+/* TEXT STATES */
+.empty,
+.end,
+.loading,
+.error {
+  text-align: center;
+  margin-top: 20px;
+  color: #555;
+}
+
+.error {
+  color: red;
+}
+
+/* DATA TEXT EFFECT */
+.data-text {
+  font-weight: 600;
+  display: inline-block;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.data-text:hover {
+  transform: scale(1.05);
+  color: #000;
+}

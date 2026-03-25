@@ -1,0 +1,12 @@
+<form [formRoot]="fieldTree" class="event-form">
+  <app-people-field-tree [fieldTree]="fieldTree">
+    
+    <legend class="form-title">Create New Contact</legend>
+
+    <div class="form-actions">
+      <button type="submit" class="btn primary">Save</button>
+      <button type="button" (click)="cancel()" class="btn secondary">Cancel</button>
+    </div>
+
+  </app-people-field-tree>
+</form>
